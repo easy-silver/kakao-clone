@@ -1,0 +1,35 @@
+.father {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button {
+    width: 200px;
+    height: 40px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.button:hover {
+    box-shadow: 7px 7px 5px #C4C4C4;
+    background-color: #94A5A6;
+}
+
+.image-box{
+    transition: all .5s ease-in-out;
+}
+
+.image-box:hover {
+    border: 5px solid black;
+    transform: rotate(160deg) scale(.7, .7);
+}
